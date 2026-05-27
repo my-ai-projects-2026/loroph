@@ -1,7 +1,7 @@
 "use client";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Logo from "../Logo";
-import Link from "next/link";
 import { usePageNavigate } from "../NavigateProvider";
 
 const Footer = () => {
@@ -30,7 +30,7 @@ const Footer = () => {
         >
           Solutions
         </Button>
-       
+
         <Button
           onClick={() => onPageNavigate("customers")}
           className="hover:text-(--color-nav-text-hover) hover:bg-transparent transition-colors cursor-pointer"

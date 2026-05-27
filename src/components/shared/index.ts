@@ -1,7 +1,7 @@
 export { default as DynamicStamp } from "./DynamicStamp";
 export { default as Benefits } from "./home/Benefits";
-export { default as HeroSection } from "./home/HeroSection";
 export { default as ContactUs } from "./home/ContactUs";
+export { default as HeroSection } from "./home/HeroSection";
 
 export { default as ManualStamp } from "./home/ManualStamp";
 export { default as MerchantFocus } from "./home/MerchantFocus";

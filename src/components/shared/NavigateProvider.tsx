@@ -1,6 +1,6 @@
 "use client";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import React, { useEffect, Suspense } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import React, { Suspense, useEffect } from "react";
 
 type NavigateContextType = {
   onPageNavigate: (view: "home" | "solution" | "customers" | "contact") => void;

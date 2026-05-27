@@ -1,13 +1,13 @@
 "use client";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { CheckCircle, Loader2, Mail, MapPin, Send } from "lucide-react";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { Mail, MapPin, Loader2, CheckCircle, Send } from "lucide-react";
 import { Input, InputGroup } from "@/components/ui/input";
 import { submitContactForm } from "@/lib/actions/contact.action";
 import {
-  contactFormSchema,
   type ContactFormValues,
+  contactFormSchema,
 } from "@/lib/schemas/contact.schema";
 
 const ContactUs = () => {

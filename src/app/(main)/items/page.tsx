@@ -270,7 +270,10 @@ export default function ItemsPage() {
           </h1>
           <p className="text-(--color-on-surface-variant)/80 text-sm sm:text-base leading-relaxed max-w-md">
             Digital-first gear for the modern barista. Artisanal quality meets{" "}
-            <span className="text-(--color-primary) font-semibold">L.O.R.O.</span> innovation.
+            <span className="text-(--color-primary) font-semibold">
+              L.O.R.O.
+            </span>{" "}
+            innovation.
           </p>
         </header>
 

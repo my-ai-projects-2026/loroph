@@ -5,16 +5,16 @@ import {
   CheckCircle,
   ChevronDown,
   Loader2,
+  Lock,
   Mail,
   Network,
   ShieldCheck,
   Store,
-  User,
-  Lock,
   Tag,
+  User,
 } from "lucide-react";
-import React, { useState } from "react";
 import Link from "next/link";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Input, InputGroup, Select } from "@/components/ui/input";
 

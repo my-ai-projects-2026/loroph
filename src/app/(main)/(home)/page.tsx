@@ -1,10 +1,10 @@
+import Image from "next/image";
 import {
   Benefits,
+  ContactUs,
   HeroSection,
   MerchantFocus,
-  ContactUs,
 } from "@/components/shared";
-import Image from "next/image";
 
 export default function Home() {
   return (

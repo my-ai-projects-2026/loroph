@@ -1,4 +1,4 @@
-import { Header, Footer } from "@/components/shared";
+import { Footer, Header } from "@/components/shared";
 import NavigateProvider from "@/components/shared/NavigateProvider";
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {

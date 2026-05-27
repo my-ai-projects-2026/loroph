@@ -10,7 +10,8 @@ import {
   UserCheck,
   Users,
 } from "lucide-react";
-import React, { useMemo, useState } from "react";
+import type React from "react";
+import { useMemo, useState } from "react";
 import type {
   ActivityLog,
   Campaign,

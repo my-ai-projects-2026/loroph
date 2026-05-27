@@ -1,6 +1,7 @@
 "use client";
-import React, { useState } from "react";
-import { Mail, Store, X, Sparkles, CheckCircle2, Ticket } from "lucide-react";
+import { CheckCircle2, Mail, Sparkles, Store, Ticket, X } from "lucide-react";
+import type React from "react";
+import { useState } from "react";
 
 interface RegisterModalProps {
   isOpen: boolean;
