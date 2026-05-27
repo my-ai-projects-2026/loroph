@@ -46,7 +46,9 @@ const ContactUs = () => {
           setIsSuccess(false);
         }, 5000);
       } else {
-        setErrorMessage(result.message || "Failed to send message. Please try again.");
+        setErrorMessage(
+          result.message || "Failed to send message. Please try again.",
+        );
       }
     } catch (err) {
       setErrorMessage("An unexpected error occurred. Please try again later.");
@@ -112,11 +114,11 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <p className="font-mono text-[11px] leading-[16px] tracking-[0.12em] font-semibold text-(--color-on-surface-variant)/60 uppercase mb-1">
-                    HQ
+                    Main Office
                   </p>
                   <p className="font-body text-[15px] leading-[22px] text-(--color-on-surface)/90 font-medium">
-                    Innovation Hub, Digital District 8<br />
-                    Singapore
+                    B3 L13 GENERAL CAPINPIN ST. TALON V SOLDIERS HILLS 2 LAS
+                    PINAS CITY, Las Piñas, Philippines
                   </p>
                 </div>
               </div>

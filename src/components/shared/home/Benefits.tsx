@@ -73,7 +73,7 @@ const Benefits = () => {
         </div>
 
         <Link
-          href="/early-access"
+          href="/reserve"
           className="relative z-10 px-8 py-4 bg-white text-slate-950 hover:bg-slate-100 font-bold rounded-xl shadow-lg transition-transform active:scale-95 cursor-pointer flex items-center gap-2"
         >
           Reserve early access
