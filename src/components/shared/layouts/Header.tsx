@@ -4,6 +4,7 @@ import Logo from "../Logo";
 import { Button } from "@/components/ui/button";
 import { usePageNavigate } from "../NavigateProvider";
 import { ShoppingBag } from "lucide-react";
+import ThemeToggle from "../ThemeToggle";
 
 const Header = () => {
   const { onPageNavigate } = usePageNavigate();
@@ -11,30 +12,30 @@ const Header = () => {
   return (
     <nav
       id="navbar"
-      className="fixed top-0 w-full z-45 flex justify-between items-center px-8 h-16 border-b border-slate-800/60 bg-slate-950/40 backdrop-blur-md"
+      className="fixed top-0 w-full z-45 flex justify-between items-center px-8 h-16 border-b border-(--color-glass-stroke) bg-(--color-header-bg) backdrop-blur-md transition-colors duration-300"
     >
       <Logo />
       <div
         id="nav-actions"
-        className="hidden md:flex items-center gap-6 font-mono text-sm font-medium text-slate-400"
+        className="hidden md:flex items-center gap-6 font-mono text-sm font-medium text-(--color-nav-text)"
       >
         <Button
           onClick={() => onPageNavigate("home")}
-          className="hover:text-white hover:bg-transparent transition-colors cursor-pointer"
+          className="hover:text-(--color-nav-text-hover) hover:bg-transparent transition-colors cursor-pointer"
           variant={"ghost"}
         >
           Home
         </Button>
         <Button
           onClick={() => onPageNavigate("solution")}
-          className="hover:text-white hover:bg-transparent transition-colors cursor-pointer"
+          className="hover:text-(--color-nav-text-hover) hover:bg-transparent transition-colors cursor-pointer"
           variant={"ghost"}
         >
           Solutions
         </Button>
         <Button
           onClick={() => onPageNavigate("customers")}
-          className="hover:text-white hover:bg-transparent transition-colors cursor-pointer"
+          className="hover:text-(--color-nav-text-hover) hover:bg-transparent transition-colors cursor-pointer"
           variant={"ghost"}
         >
           Customers
@@ -42,7 +43,7 @@ const Header = () => {
 
         <Button
           onClick={() => onPageNavigate("contact")}
-          className="hover:text-white hover:bg-transparent transition-colors cursor-pointer"
+          className="hover:text-(--color-nav-text-hover) hover:bg-transparent transition-colors cursor-pointer"
           variant={"ghost"}
         >
           Contact Us
@@ -79,6 +80,7 @@ const Header = () => {
           <ShoppingBag className=" h-3.5 relative z-10" />
           <span className="relative z-10">Our merchandise</span>
         </Link>
+        <ThemeToggle />
       </div>
     </nav>
   );

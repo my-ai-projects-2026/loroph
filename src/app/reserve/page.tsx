@@ -82,8 +82,8 @@ const ReservePage = () => {
       <main className="relative z-10 flex flex-col items-center justify-center min-h-screen px-5 py-12 w-full">
         {/* Brand Identifier */}
         <div className="mb-6 text-center">
-          <h1 className="font-headline text-[24px] leading-[32px] font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-cyan-glow">
-            LOYALTY.OS
+          <h1 className="font-headline text-[24px] leading-[32px] font-bold tracking-widest text-transparent bg-clip-text bg-linear-to-r from-electric-blue to-cyan-glow">
+            L.O.R.O
           </h1>
         </div>
 

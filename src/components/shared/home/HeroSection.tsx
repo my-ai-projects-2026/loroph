@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative w-full grow flex flex-col lg:flex-row items-center justify-center px-8 lg:px-12 py-12 lg:py-24 gap-12 overflow-hidden hero-gradient"
+      className="relative w-full grow flex flex-col lg:flex-row items-center justify-center px-8 lg:px-12 py-12 lg:py-24 gap-12 overflow-hidden dark:hero-gradient  "
     >
       <div
         id="hero-content"
@@ -14,24 +14,24 @@ const HeroSection = () => {
       >
         <div
           id="loyalty-badge"
-          className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase tracking-wider"
+          className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-500 dark:text-indigo-400 text-xs font-semibold uppercase tracking-wider"
         >
           <span>Universal Loyalty</span>
-          <span className="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+          <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 dark:bg-indigo-400"></span>
           <span>L.O.R.O. v1.0</span>
         </div>
 
         <h1
           id="hero-title"
-          className="font-headline text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight max-w-xl"
+          className="font-headline text-3xl sm:text-5xl lg:text-6xl font-bold text-(--color-on-surface) leading-[1.1] tracking-tight max-w-xl"
         >
           A Loyalty Platform <br />
-          <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-blue-400">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-500 to-blue-500 dark:from-indigo-400 dark:to-blue-400">
             for your regulars.
           </span>
         </h1>
 
-        <p className="text-lg text-slate-400 max-w-lg leading-relaxed">
+        <p className="text-lg text-(--color-on-surface-variant) max-w-lg leading-relaxed">
           Simple digital rewards that keep customers returning — no punch cards,
           no fuss. Built for busy shops.
         </p>
@@ -45,7 +45,7 @@ const HeroSection = () => {
           </Link>
           <Link
             href="/items"
-            className="px-8 py-4 bg-slate-850 text-slate-200 border border-slate-700/80 rounded-xl font-semibold hover:bg-slate-800 transition-all active:scale-95 cursor-pointer"
+            className="px-8 py-4 bg-(--color-surface-container-high) text-(--color-on-surface) border border-(--color-glass-stroke) rounded-xl font-semibold hover:bg-(--color-surface-container-highest) transition-all active:scale-95 cursor-pointer"
           >
             Merchant Items
           </Link>

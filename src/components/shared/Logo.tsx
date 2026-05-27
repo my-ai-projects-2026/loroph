@@ -17,10 +17,10 @@ const Logo = () => {
           width={100}
         />
         <div className="flex flex-col  items-start">
-          <h1 className="text-xl font-bold tracking-tight text-white font-headline">
+          <h1 className="text-xl font-bold tracking-tight text-(--color-on-surface) font-headline">
             L.O.R.O
           </h1>
-          <p className="text-xs text-gray-400">
+          <p className="text-xs text-(--color-on-surface-variant)">
             Loyalty Offers and Rewards Online
           </p>
         </div>

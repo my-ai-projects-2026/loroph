@@ -19,7 +19,7 @@ const Benefits = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         <div className="p-8 glass-card rounded-3xl flex flex-col border border-(--color-glass-stroke) hover:-translate-y-1 transition-transform duration-300">
-          <div className="w-12 h-12 rounded-2xl bg-(--color-cyan-glow)/10 flex items-center justify-center text-(--color-cyan-glow) mb-6">
+          <div className="w-12 h-12 rounded-2xl bg-(--color-electric-blue)/10 flex items-center justify-center text-(--color-electric-blue) mb-6">
             <LayoutGrid className="w-6 h-6" />
           </div>
           <h3 className="font-headline font-bold text-lg mb-3 text-(--color-on-surface)">
@@ -32,7 +32,7 @@ const Benefits = () => {
         </div>
 
         <div className="p-8 glass-card rounded-3xl flex flex-col border border-(--color-glass-stroke) hover:-translate-y-1 transition-transform duration-300">
-          <div className="w-12 h-12 rounded-2xl bg-(--color-cyan-glow)/10 flex items-center justify-center text-(--color-cyan-glow) mb-6">
+          <div className="w-12 h-12 rounded-2xl bg-(--color-electric-blue)/10 flex items-center justify-center text-(--color-electric-blue) mb-6">
             <Zap className="w-6 h-6 animate-pulse" />
           </div>
           <h3 className="font-headline font-bold text-lg mb-3 text-(--color-on-surface)">
@@ -45,7 +45,7 @@ const Benefits = () => {
         </div>
 
         <div className="p-8 glass-card rounded-3xl flex flex-col border border-(--color-glass-stroke) hover:-translate-y-1 transition-transform duration-300">
-          <div className="w-12 h-12 rounded-2xl bg-(--color-primary-container)/5 flex items-center justify-center text-(--color-primary) mb-6">
+          <div className="w-12 h-12 rounded-2xl bg-(--color-electric-blue)/10 flex items-center justify-center text-(--color-electric-blue) mb-6">
             <ShieldCheck className="w-6 h-6" />
           </div>
           <h3 className="font-headline font-bold text-lg mb-3 text-(--color-on-surface)">
