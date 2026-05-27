@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   title: "L.O.R.O",
   description: "Next Generation of Reward System",
   icons: {
-    icon: "/favicon.icon",
-    shortcut: "/favicon.icon",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
     apple: "/logo8.png",
   },
 };
