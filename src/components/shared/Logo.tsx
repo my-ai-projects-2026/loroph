@@ -10,7 +10,7 @@ const Logo = () => {
     >
       <div className="flex items-center gap-2">
         <Image
-          src="/logo_8.png"
+          src="/loro.png"
           alt="L.O.R.O. Logo"
           className="w-12 h-12 object-contain"
           height={100}
